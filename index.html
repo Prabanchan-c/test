@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>my first program</h1>
+        
+        
+        
+
+            <p id="numi"></p>
+            <p id="numj"></p>
+       
+       
+         <script>
+            function delay(){
+                for(let x=0;x<=100;x++){
+                    for(let y=0;y<=199;y++);
+                }
+            }
+            for(let i=0;i<=1000;i++){
+                for(let j=0;j<=100;j++){
+                    document.getElementById("numi").innerHTML = i;
+                    document.getElementById("numj").innerHTML = j;
+                    let a= Number(j);
+                    console.log(a)
+                    delay();
+                }
+            }
+            
+        </script>
+
+         </body>
+
+</html>
